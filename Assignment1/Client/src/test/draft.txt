@@ -1,0 +1,19 @@
+
+Wall Time: 294897ms
+Throughput: 11.987423498979 requests per second
+POST Requests Statistics:
+Mean: 993.38294723423
+Median: 940
+P99: 1423
+Min: 642
+Max: 10324
+
+GET Requests Statistics:
+Mean: 1985.8970984231322
+Median: 1519
+P99: 2519
+Min: 1853
+Max: 11742
+
+
+

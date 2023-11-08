@@ -44,18 +44,17 @@ Database Configuration Tuning:
 
 
 ### Results Comparison Table for 30 numThreadGroups
-                  single server   |   2 servers   |   2 servers + Tuning
-    WallTime   |      1:00.2      |   0:30.5      |   0:30.5
-    Throughput |      4.99        |   9.83        |   9.83
-    Requests   |      299         |   590         |   590
-    Get() Mean |      0.2         |   0.1         |   0.1
-    Get() p99  |      0.3         |   0.2         |   0.2
-    Get() Mid  |      0.4         |   0.3         |   0.3
-    Get() Max  |      0.5         |   0.4         |   0.4
-    Get() Min  |      0.5         |   0.4         |   0.4
-    Post() Mean|      0.2         |   0.1         |   0.1
-    Post() p99 |      0.3         |   0.2         |   0.2
-    Post() Mid |      0.4         |   0.3         |   0.3
-    Post() Max |      0.5         |   0.4         |   0.4
-    Post() Min |      0.5         |   0.4         |   0.4
+                  single server    |   2 servers   |   2 servers + Tuning
+    WallTime   |      1:30:05      |   0:57:11     |       0:49:13
+    Throughput |       5.38        |     8.24      |        11.99
+    Get() Mean |       1127        |     1590      |        1985
+    Get() p99  |       1388        |     1943      |        2519
+    Get() Mid  |       1112        |     1520      |        1519
+    Get() Max  |       3677        |     5301      |        11742
+    Get() Min  |       956         |     1201      |        1853
+    Post() Mean|       776         |     874       |        993
+    Post() p99 |       1014        |     1360      |        1423
+    Post() Mid |       754         |     836       |        940
+    Post() Min |       680         |     650       |        642  
+    Post() Max |       7998        |     4023      |        10324
 
