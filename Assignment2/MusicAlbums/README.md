@@ -28,14 +28,14 @@ from doPost() request.
 #### 1.1. threadGroupSize = 10, numThreadGroups = 10, delay = 2
 #### 1.2. threadGroupSize = 10, numThreadGroups = 20, delay = 2
 #### 1.3. threadGroupSize = 10, numThreadGroups = 30, delay = 2
-![Alt text](/images/singleServer.png "single server")
+![Alt text](./images/singleServer.png "single server")
 
 ### 2. Load Testing with Load Balancer(2 servers)
 
 #### 2.1. threadGroupSize = 10, numThreadGroups = 10, delay = 2
 #### 2.2. threadGroupSize = 10, numThreadGroups = 20, delay = 2
 #### 2.3. threadGroupSize = 10, numThreadGroups = 30, delay = 2
-![Alt text](/images/doubleServer.jpeg "load balancer")
+![Alt text](./images/doubleServer.jpeg "load balancer")
 
 ### 3. Load Testing with Load Balancer(2 servers) and Database Configuration Tuning
 
@@ -43,7 +43,7 @@ Database Configuration Tuning:
 - I upgraded the database server to a higher tier, which has more memory and CPU.
 
 #### 3.1. threadGroupSize = 10, numThreadGroups = 30, delay = 2
-![Alt text](/images/optimized.png "configuration optimizations")
+![Alt text](./images/optimized.png "configuration optimizations")
 
 ### Results Comparison Table for 30 numThreadGroups
                   single server    |   2 servers   |   2 servers + Tuning
