@@ -26,14 +26,17 @@ from doPost() request.
 ### 1. Load Testing without Load Balancer(single server)
 
 #### 1.1. threadGroupSize = 10, numThreadGroups = 10, delay = 2
+![Alt text](./images/singleserver_10.png "single server")
 #### 1.2. threadGroupSize = 10, numThreadGroups = 20, delay = 2
+![Alt text](./images/singleserver_20.png "single server")
 #### 1.3. threadGroupSize = 10, numThreadGroups = 30, delay = 2
 ![Alt text](./images/singleServer.png "single server")
-
 ### 2. Load Testing with Load Balancer(2 servers)
 
 #### 2.1. threadGroupSize = 10, numThreadGroups = 10, delay = 2
+![Alt text](./images/load_balancer_10.png "load balancer")
 #### 2.2. threadGroupSize = 10, numThreadGroups = 20, delay = 2
+![Alt text](./images/load_balancer_20.png "load balancer")
 #### 2.3. threadGroupSize = 10, numThreadGroups = 30, delay = 2
 ![Alt text](./images/doubleServer.jpeg "load balancer")
 
