@@ -1,0 +1,30 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="MusicAlbums">
+    <output-path>$PROJECT_DIR$/out/artifacts/MusicAlbums</output-path>
+    <root id="archive" name="MusicAlbums.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="MusicAlbums" />
+          <element id="module-output" name="swagger-java-client" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.json:json:20210307" />
+          <element id="library" level="project" name="Maven: commons-io:commons-io:2.11.0" />
+          <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.4" />
+          <element id="library" level="project" name="Maven: javax.xml.bind:jaxb-api:2.2.11" />
+          <element id="library" level="project" name="Maven: com.sun.xml.bind:jaxb-core:2.2.11" />
+          <element id="library" level="project" name="Maven: com.sun.xml.bind:jaxb-impl:2.2.11" />
+          <element id="library" level="project" name="Maven: javax.activation:activation:1.1.1" />
+          <element id="library" level="project" name="Maven: javax.annotation:javax.annotation-api:1.3.2" />
+          <element id="library" level="project" name="Maven: io.swagger.core.v3:swagger-annotations:2.0.0" />
+          <element id="library" level="project" name="Maven: com.squareup.okhttp:okhttp:2.7.5" />
+          <element id="library" level="project" name="Maven: com.squareup.okio:okio:1.6.0" />
+          <element id="library" level="project" name="Maven: com.squareup.okhttp:logging-interceptor:2.7.5" />
+          <element id="library" level="project" name="Maven: io.gsonfire:gson-fire:1.8.3" />
+          <element id="library" level="project" name="Maven: org.threeten:threetenbp:1.3.5" />
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.8.1" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
