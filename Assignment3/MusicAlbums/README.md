@@ -55,7 +55,7 @@ the queue size is close to zero
 ![client](./images/output.png)
 
 #### - RMQ screenshot
-![rmq](./images/rmq.png)
+![rmq](./images/RMQ.png)
 
 #### - Redis validation screenshot
 ![redis](./images/redis.png)
